@@ -9,8 +9,8 @@
     "test": "jest -i --passWithNoTests",
     "test:watch": "jest -i --watch",
     "test:coverage": "jest -i --coverage",
-    "lint": "ng lint",
-    "prettier": "prettier . --write",
+    "lint": "eslint .",
+    "prettier": "prettier",
     "prepare": "husky install"
   },
   "private": true,
