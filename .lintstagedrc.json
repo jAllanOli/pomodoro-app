@@ -1,0 +1,4 @@
+{
+  "src/**/*.ts": ["yarn lint", "yarn test", "git add"],
+  "src/**/*.{html,mdx}": ["yarn prettier", "git add"]
+}
